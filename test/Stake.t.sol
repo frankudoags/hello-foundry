@@ -26,4 +26,4 @@ contract StakeTest is Test {
         stake.withdraw(100_000e18, address(token));
         assertEq(stake.balances(address(this), address(token)), 0);
     }
-} 
+}  
